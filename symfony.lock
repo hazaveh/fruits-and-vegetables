@@ -17,6 +17,18 @@
     "doctrine/lexer": {
         "version": "1.2.3"
     },
+    "friendsofphp/php-cs-fixer": {
+        "version": "3.35",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "3.0",
+            "ref": "be2103eb4a20942e28a6dd87736669b757132435"
+        },
+        "files": [
+            ".php-cs-fixer.dist.php"
+        ]
+    },
     "myclabs/deep-copy": {
         "version": "1.11.0"
     },
@@ -40,6 +52,15 @@
     },
     "phpspec/prophecy": {
         "version": "v1.15.0"
+    },
+    "phpstan/phpstan": {
+        "version": "1.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.0",
+            "ref": "f10b8054de1a94a3b9e8806a6453fd5c98491c44"
+        }
     },
     "phpunit/php-code-coverage": {
         "version": "9.2.15"
