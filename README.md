@@ -1,3 +1,9 @@
+# 🚀 Notes for The Reviewer
+* The test suites should run all the functionality, you can run the `composer test` command to run the entire test suite.
+* I have updated the minimum php dependency to 8.2 I wanted to make use of constructor property promotion
+* the two commands of `composer analyze` and `composer codestyle` will run static analyzer and cs-fixer check against the source.
+---
+
 # 🍎🥕 Fruits and Vegetables
 
 ## 🎯 Goal
